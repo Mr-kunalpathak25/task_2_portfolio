@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ffd2e3 0%, #9ffcf9 100%);
+}
+
+header {
+    background-color: #2aa4c3c6;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffecd2;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(8, 0, 0, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 0, 0, 0.1);
+}
+
+#home {
+    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
+    color: rgb(12, 0, 0);
+}
+
+#about, #projects, #contact {
+    background: springgreen;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0d0101;
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, textarea {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    background-color:rgb(255, 25, 205);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: hsl(322, 65%, 46%);
+}
+
+.profile-photo, .project-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
